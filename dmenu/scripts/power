@@ -1,0 +1,13 @@
+#!/bin/sh
+
+power() {
+  opts="cancel\npoweroff\nrestart\nlock\nsleep\n"
+  sel=$(echo -e "$opts" | dmenu -i -h 28)
+  [ "$sel" = "cancel" ] && return
+  [ "$sel" = "poweroff" ] && poweroff
+  [ "$sel" = "restart" ] && reboot
+  [ "$sel" = "lock" ] && dm-tool switch-to-greeter
+  [ "$sel" = "sleep" ] && echo "going to sleep"
+}
+
+power
