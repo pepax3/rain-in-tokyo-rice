@@ -6,6 +6,8 @@ Welcome to the **Lofi Rice repository**! This repository contains custom configu
 
 **Commands for installation (using my script from repo)**
 
+![alt text](https://github.com/pepax3/rain-in-tokyo-rice/blob/main/showcase.png?raw=true)
+
 ```
 git clone https://github.com/pepax3/lofi-rice
 cd lofi-rice && chmod +x lofi-rice.sh 
