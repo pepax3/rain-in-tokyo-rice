@@ -2,11 +2,11 @@
 
 Welcome to the **Lofi Rice repository**! This repository contains custom configurations for the **DWM window manager, ST terminal emulator, and Dmenu application launcher**, created as a **minimal and efficient** desktop environment.
 
+![alt text](https://github.com/pepax3/rain-in-tokyo-rice/blob/main/showcase.png?raw=true)
+
 ## How to install
 
 **Commands for installation (using my script from repo)**
-
-![alt text](https://github.com/pepax3/rain-in-tokyo-rice/blob/main/showcase.png?raw=true)
 
 ```
 git clone https://github.com/pepax3/lofi-rice
