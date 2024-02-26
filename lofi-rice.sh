@@ -3,9 +3,6 @@
 # Install packages
 sudo pacman -S base-devel xorg xorg-server xorg-xinit libx11 libxft libxinerama webkit2gtk zsh xcompmgr flameshot feh xorg-xrandr dunst clang
 
-# Move background.png to the appropriate location
-mv background.png ~/.local/share/background.png
-
 # Install DWM
 cd dwm
 sudo make clean install
