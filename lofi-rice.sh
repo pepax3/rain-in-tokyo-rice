@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install packages
-sudo pacman -S base-devel xorg xorg-server xorg-xinit libx11 libxft libxinerama webkit2gtk zsh xcompmgr flameshot feh xorg-xrandr dunst clang
+sudo pacman -S base-devel xorg xorg-server xorg-xinit libx11 libxft libxinerama webkit2gtk zsh xcompmgr flameshot feh xorg-xrandr clang
 
 # Install DWM
 cd dwm
@@ -23,12 +23,13 @@ cd slstatus
 sudo make clean install
 cd ..
 
-# Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Install dunst
+cd dunst
+sudo make clean install
+cd ..
 
-# Additional commands
-chmod +x install.sh
-./install.sh
+w# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Final message
 echo "Your DWM rice is installed. If you would like to support me, you can buy me a coffee at: https://ko-fi.com/pepax3 THANKS BYE!"
